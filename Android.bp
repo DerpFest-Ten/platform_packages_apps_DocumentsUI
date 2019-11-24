@@ -77,6 +77,7 @@ android_library {
 
     resource_dirs: [
         "res",
+        "res-revengeos",
     ],
 
     aaptflags: [
@@ -101,6 +102,7 @@ android_app {
 
     resource_dirs: [
         "res",
+        "res-revengeos",
     ],
 
     required: ["privapp_whitelist_com.android.documentsui"],
